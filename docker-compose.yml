@@ -1,7 +1,7 @@
 version: "3.8"
    
 services:
-  db:
+  db: # THIS WILL BE USED AS THE HOST NAME IN SETTINGS.PY
     image: postgres
     environment:
       - POSTGRES_DB=postgres
